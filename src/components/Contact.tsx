@@ -7,7 +7,11 @@ import { Github, Linkedin, Mail, Send } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const Contact = () => {
-  const [formData, setFormData] = useState({ name: "", email: "", message: "" });
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
 
@@ -43,7 +47,9 @@ const Contact = () => {
                 <Input
                   placeholder="Your Name"
                   value={formData.name}
-                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                  onChange={(e) =>
+                    setFormData({ ...formData, name: e.target.value })
+                  }
                   required
                   className="bg-background"
                 />
@@ -53,7 +59,9 @@ const Contact = () => {
                   type="email"
                   placeholder="Your Email"
                   value={formData.email}
-                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                  onChange={(e) =>
+                    setFormData({ ...formData, email: e.target.value })
+                  }
                   required
                   className="bg-background"
                 />
@@ -62,7 +70,9 @@ const Contact = () => {
                 <Textarea
                   placeholder="Your Message"
                   value={formData.message}
-                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                  onChange={(e) =>
+                    setFormData({ ...formData, message: e.target.value })
+                  }
                   required
                   rows={5}
                   className="bg-background resize-none"
@@ -79,7 +89,7 @@ const Contact = () => {
             <Card className="p-8 bg-gradient-card shadow-card border-border">
               <h3 className="text-2xl font-semibold mb-6">Connect With Me</h3>
               <div className="space-y-4">
-                <a 
+                <a
                   href="https://github.com/Erickthamara"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -88,11 +98,13 @@ const Contact = () => {
                   <Github className="h-6 w-6 text-primary group-hover:scale-110 transition-transform" />
                   <div>
                     <p className="font-medium">GitHub</p>
-                    <p className="text-sm text-muted-foreground">@Erickthamara</p>
+                    <p className="text-sm text-muted-foreground">
+                      @Erickthamara
+                    </p>
                   </div>
                 </a>
-                
-                <a 
+
+                <a
                   href="https://www.linkedin.com/in/erickthamara/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -101,18 +113,22 @@ const Contact = () => {
                   <Linkedin className="h-6 w-6 text-primary group-hover:scale-110 transition-transform" />
                   <div>
                     <p className="font-medium">LinkedIn</p>
-                    <p className="text-sm text-muted-foreground">Erick Thamara</p>
+                    <p className="text-sm text-muted-foreground">
+                      Erick Thamara
+                    </p>
                   </div>
                 </a>
-                
-                <a 
+
+                <a
                   href="mailto:erickthamara9@gmail.com"
                   className="flex items-center gap-4 p-4 rounded-lg bg-background hover:bg-accent/10 transition-colors group"
                 >
                   <Mail className="h-6 w-6 text-primary group-hover:scale-110 transition-transform" />
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-sm text-muted-foreground">erickthamara9@gmail.com</p>
+                    <p className="text-sm text-muted-foreground">
+                      erickthamara9@gmail.com
+                    </p>
                   </div>
                 </a>
               </div>
