@@ -10,13 +10,13 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero">
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiM4ODgiIGZpbGwtb3BhY2l0eT0iMC4wNSI+PHBhdGggZD0iTTM2IDM0djItSDI0di0yaDEyem0wLTEwdjItSDI0di0yaDEyem0wLTEwdjItSDI0di0yaDEyeiIvPjwvZz48L2c+PC9zdmc+')] opacity-30"></div>
-      
+
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <div className="animate-fade-in">
             <div className="mb-8 flex justify-center">
-              <img 
-                src={profilePhoto} 
+              <img
+                src={profilePhoto}
                 alt="Erick Thamara - Software Developer"
                 className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-primary/20 shadow-lg-custom"
               />
@@ -28,27 +28,31 @@ const Hero = () => {
               Software Developer
             </p>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Building Scalable Web Apps & APIs with .NET, React, and Microsoft Dynamics 365 Business Central
+              Building Scalable Web Apps & APIs with .NET, React, and Microsoft
+              Dynamics 365 Business Central
             </p>
             <p className="text-base md:text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
-              Specializing in ERP customizations with AL/CAL, backend architecture, API design, and full-stack development. 
-              Proven track record of delivering production-grade software solutions.
+              Specializing in ERP customizations with AL/CAL, backend
+              architecture, API design, and full-stack development. Proven track
+              record of delivering production-grade software solutions.
             </p>
           </div>
 
           <div className="flex flex-wrap gap-4 justify-center mb-12 animate-fade-in-up">
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               onClick={() => scrollToSection("projects")}
               className="group"
             >
               View Projects
               <ArrowDown className="ml-2 h-4 w-4 group-hover:translate-y-1 transition-transform" />
             </Button>
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               variant="outline"
-              onClick={() => window.open("/Erick_Thamara_Resume.docx", "_blank")}
+              onClick={() =>
+                window.open("/Erick_Thamara_Resume.docx", "_blank")
+              }
             >
               <Download className="mr-2 h-4 w-4" />
               Download Resume
@@ -56,25 +60,25 @@ const Hero = () => {
           </div>
 
           <div className="flex gap-6 justify-center animate-scale-in">
-            <a 
-              href="https://github.com/Erickthamara" 
-              target="_blank" 
+            <a
+              href="https://github.com/Erickthamara"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="GitHub Profile"
             >
               <Github className="h-6 w-6" />
             </a>
-            <a 
-              href="https://www.linkedin.com/in/erickthamara/" 
-              target="_blank" 
+            <a
+              href="https://www.linkedin.com/in/erickthamara/"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="LinkedIn Profile"
             >
               <Linkedin className="h-6 w-6" />
             </a>
-            <a 
+            <a
               href="mailto:erickthamara9@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="Email Contact"
@@ -85,7 +89,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+      {/* <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
         <button 
           onClick={() => scrollToSection("about")}
           className="text-muted-foreground hover:text-primary transition-colors"
@@ -93,7 +97,7 @@ const Hero = () => {
         >
           <ArrowDown className="h-8 w-8" />
         </button>
-      </div>
+      </div> */}
     </section>
   );
 };
