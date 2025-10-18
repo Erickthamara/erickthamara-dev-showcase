@@ -1,3 +1,4 @@
+import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Projects from "@/components/Projects";
@@ -9,13 +10,26 @@ import ThemeToggle from "@/components/ThemeToggle";
 const Index = () => {
   return (
     <main className="min-h-screen">
+      <Navigation />
       <ThemeToggle />
-      <Hero />
-      <About />
-      <Projects />
-      <Skills />
-      <Experience />
-      <Contact />
+      <section id="hero">
+        <Hero />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
+      <section id="skills">
+        <Skills />
+      </section>
+      <section id="experience">
+        <Experience />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
       
       <footer className="bg-card border-t border-border py-8">
         <div className="container mx-auto px-6 text-center">
