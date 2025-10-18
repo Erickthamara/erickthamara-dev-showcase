@@ -34,7 +34,9 @@ const Navigation = () => {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-background/95 backdrop-blur-md border-b border-border shadow-sm" : "bg-transparent"
+        isScrolled
+          ? "bg-background/95 backdrop-blur-md border-b border-border shadow-sm"
+          : "bg-transparent"
       }`}
     >
       <div className="container mx-auto px-6">
@@ -43,7 +45,7 @@ const Navigation = () => {
             onClick={() => scrollToSection("hero")}
             className="font-mono font-bold text-lg text-primary hover:text-accent transition-colors"
           >
-            ET
+            Erick Thamara
           </button>
 
           {/* Desktop Navigation */}
@@ -66,7 +68,11 @@ const Navigation = () => {
             className="md:hidden"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
-            {isMobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+            {isMobileMenuOpen ? (
+              <X className="h-5 w-5" />
+            ) : (
+              <Menu className="h-5 w-5" />
+            )}
           </Button>
         </div>
 

@@ -30,11 +30,11 @@ const Index = () => {
       <section id="contact">
         <Contact />
       </section>
-      
+
       <footer className="bg-card border-t border-border py-8">
         <div className="container mx-auto px-6 text-center">
           <p className="text-muted-foreground">
-            © {new Date().getFullYear()} Erick Thamara. Built with React & Tailwind CSS.
+            © {new Date().getFullYear()} Erick Thamara.
           </p>
         </div>
       </footer>
