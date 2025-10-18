@@ -20,11 +20,11 @@ const Hero = () => {
               Software Developer
             </p>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Building Scalable Web Apps & APIs with .NET, React, Flask, and Docker
+              Building Scalable Web Apps & APIs with .NET, React, and Microsoft Dynamics 365 Business Central
             </p>
             <p className="text-base md:text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
-              Specializing in backend architecture, API design, and containerized deployments. 
-              Remote-ready professional with a proven track record of delivering production-grade software.
+              Specializing in ERP customizations with AL/CAL, backend architecture, API design, and full-stack development. 
+              Proven track record of delivering production-grade software solutions.
             </p>
           </div>
 
@@ -40,7 +40,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               variant="outline"
-              onClick={() => window.open("/resume.pdf", "_blank")}
+              onClick={() => window.open("/Erick_Thamara_Resume.docx", "_blank")}
             >
               <Download className="mr-2 h-4 w-4" />
               Download Resume
@@ -58,7 +58,7 @@ const Hero = () => {
               <Github className="h-6 w-6" />
             </a>
             <a 
-              href="https://linkedin.com/in/erickthamara" 
+              href="https://www.linkedin.com/in/erickthamara/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -67,7 +67,7 @@ const Hero = () => {
               <Linkedin className="h-6 w-6" />
             </a>
             <a 
-              href="mailto:erick.thamara@example.com"
+              href="mailto:erickthamara9@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="Email Contact"
             >

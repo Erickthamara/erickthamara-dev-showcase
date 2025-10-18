@@ -5,24 +5,25 @@ const Experience = () => {
   const experiences = [
     {
       role: "Software Developer",
-      company: "Freelance / Contract Work",
-      period: "2022 - Present",
+      company: "AU Innovation",
+      period: "September 2023 - Present",
       responsibilities: [
-        "Developed and deployed full-stack web applications using .NET, React, and PostgreSQL",
-        "Built RESTful APIs with clean architecture patterns and comprehensive documentation",
-        "Implemented containerized deployments with Docker and orchestration using Coolify",
-        "Collaborated with remote teams across different time zones using agile methodologies"
+        "Developed mobile loan API handling 200+ daily requests with eligibility assessment",
+        "Built Power BI dashboards for data-driven marketing optimization based on demographics",
+        "Automated SMS notifications for salary payments with detailed deduction breakdowns",
+        "Created RESTful API endpoints using C# and ASP.NET Core for third-party vendors",
+        "Implemented job queue automation for Microsoft Business Central ERP operations"
       ]
     },
     {
-      role: "Backend Developer",
-      company: "Previous Position",
-      period: "2020 - 2022",
+      role: "Web Developer (Support)",
+      company: "Gathers SACCO",
+      period: "August 2021 - Present",
       responsibilities: [
-        "Designed and implemented scalable backend services using .NET Core and Flask",
-        "Optimized database queries and improved application performance by 40%",
-        "Integrated third-party APIs and payment gateways",
-        "Maintained CI/CD pipelines and automated testing workflows"
+        "Developed and launched initial website using WordPress",
+        "Redesigned website to modern responsive platform using React",
+        "Manage email system via cPanel for reliable communication",
+        "Enhanced online presence and user experience through continuous improvements"
       ]
     }
   ];

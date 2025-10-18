@@ -5,18 +5,18 @@ const About = () => {
   const highlights = [
     {
       icon: Code2,
-      title: "Clean Architecture",
-      description: "Writing maintainable, scalable code with best practices"
+      title: "ERP Customization",
+      description: "Business Central development with AL/CAL expertise"
     },
     {
       icon: Rocket,
       title: "Production-Ready",
-      description: "Delivering reliable solutions with Docker and modern DevOps"
+      description: "APIs serving 200+ daily requests with proven reliability"
     },
     {
       icon: Users,
-      title: "Remote Collaboration",
-      description: "Experienced in distributed teams and agile workflows"
+      title: "Full-Stack Development",
+      description: "React, .NET, Python, and RESTful APIs"
     }
   ];
 
@@ -29,14 +29,14 @@ const About = () => {
 
           <div className="prose prose-lg max-w-none mb-12 text-foreground">
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              I'm a Software Developer with expertise in building scalable web applications and robust APIs. 
-              My experience spans backend development with .NET and Flask, modern frontend with React, 
-              and containerized deployments using Docker and Coolify.
+              I'm a dedicated software developer specializing in Microsoft Dynamics 365 Business Central customizations 
+              using AL and CAL. With expertise in full-stack web development, I build efficient and scalable solutions 
+              using React for frontend and .NET/Python for backend services.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I thrive in creating clean, efficient solutions and have a strong focus on code quality, 
-              API integration, and deployment automation. As a detail-oriented professional, I'm passionate 
-              about delivering production-grade software and excel in remote work environments.
+              Currently employed at AU Innovation, I develop RESTful APIs, automate business processes, and create 
+              data-driven solutions that enhance business operations. My work includes building mobile loan APIs, 
+              Power BI dashboards, and automated notification systems.
             </p>
           </div>
 
@@ -53,11 +53,6 @@ const About = () => {
             ))}
           </div>
 
-          <div className="mt-12 p-6 bg-accent/10 rounded-lg border border-accent/20">
-            <p className="text-center text-lg font-medium text-foreground">
-              🌍 Open to Remote Opportunities Worldwide
-            </p>
-          </div>
         </div>
       </div>
     </section>

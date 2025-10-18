@@ -32,7 +32,7 @@ const Contact = () => {
         <h2 className="text-4xl font-bold text-center mb-4">Get In Touch</h2>
         <div className="w-20 h-1 bg-primary mx-auto mb-4"></div>
         <p className="text-center text-lg text-muted-foreground mb-12">
-          Open to Remote Opportunities — Let's Build Something Great Together
+          Let's Build Something Great Together
         </p>
 
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
@@ -93,7 +93,7 @@ const Contact = () => {
                 </a>
                 
                 <a 
-                  href="https://linkedin.com/in/erickthamara"
+                  href="https://www.linkedin.com/in/erickthamara/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 rounded-lg bg-background hover:bg-accent/10 transition-colors group"
@@ -106,23 +106,17 @@ const Contact = () => {
                 </a>
                 
                 <a 
-                  href="mailto:erick.thamara@example.com"
+                  href="mailto:erickthamara9@gmail.com"
                   className="flex items-center gap-4 p-4 rounded-lg bg-background hover:bg-accent/10 transition-colors group"
                 >
                   <Mail className="h-6 w-6 text-primary group-hover:scale-110 transition-transform" />
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-sm text-muted-foreground">erick.thamara@example.com</p>
+                    <p className="text-sm text-muted-foreground">erickthamara9@gmail.com</p>
                   </div>
                 </a>
               </div>
             </Card>
-
-            <div className="p-6 bg-primary/10 rounded-lg border border-primary/20">
-              <p className="text-center font-medium">
-                💼 Available for remote positions worldwide
-              </p>
-            </div>
           </div>
         </div>
       </div>
